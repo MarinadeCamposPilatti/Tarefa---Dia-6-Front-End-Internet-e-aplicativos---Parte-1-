@@ -1,0 +1,56 @@
+body {
+    background-color: greenyellow;
+    opacity: 0.9;
+    background-image: url("balanca-imc.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    background-attachment: scroll;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+
+  h2 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+  }
+
+  h3{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    border-bottom-style:double
+  }
+
+  h3 {
+    border-bottom-style:double
+  }
